@@ -1,0 +1,625 @@
+[
+    {
+        "id": "Q01",
+        "document": "LGPD",
+        "question": "Qual é o objetivo da LGPD?",
+        "category": "objetivo",
+        "expected_answer": "Proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.",
+        "relevant_devices": [
+            {
+                "reference": "Art. 1º",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 1º",
+                "text": "Art. 1º Esta Lei dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0001"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0001"
+                    ]
+                }
+            }
+        ],
+        "strategies": {
+            "fixed": {
+                "relevant_chunks": [
+                    "fixed_0001"
+                ],
+                "devices_without_full_match": []
+            },
+            "hierarchical": {
+                "relevant_chunks": [
+                    "hierarchical_0001"
+                ],
+                "devices_without_full_match": []
+            }
+        }
+    },
+    {
+        "id": "Q02",
+        "document": "LGPD",
+        "question": "O que são dados pessoais?",
+        "category": "definicao",
+        "expected_answer": "Informações relacionadas a uma pessoa natural identificada ou identificável.",
+        "relevant_devices": [
+            {
+                "reference": "Art. 5º > Inciso I",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 5º > Inciso I",
+                "text": "I - dado pessoal: informação relacionada a pessoa natural identificada ou identificável;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0003"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0006"
+                    ]
+                }
+            }
+        ],
+        "strategies": {
+            "fixed": {
+                "relevant_chunks": [
+                    "fixed_0003"
+                ],
+                "devices_without_full_match": []
+            },
+            "hierarchical": {
+                "relevant_chunks": [
+                    "hierarchical_0006"
+                ],
+                "devices_without_full_match": []
+            }
+        }
+    },
+    {
+        "id": "Q03",
+        "document": "LGPD",
+        "question": "O que são dados pessoais sensíveis?",
+        "category": "definicao",
+        "expected_answer": "Dados pessoais sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dados referentes à saúde ou à vida sexual e dados genéticos ou biométricos, quando vinculados a uma pessoa natural.",
+        "relevant_devices": [
+            {
+                "reference": "Art. 5º > Inciso II",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 5º > Inciso II",
+                "text": "II - dado pessoal sensível: dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0003"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0006"
+                    ]
+                }
+            }
+        ],
+        "strategies": {
+            "fixed": {
+                "relevant_chunks": [
+                    "fixed_0003"
+                ],
+                "devices_without_full_match": []
+            },
+            "hierarchical": {
+                "relevant_chunks": [
+                    "hierarchical_0006"
+                ],
+                "devices_without_full_match": []
+            }
+        }
+    },
+    {
+        "id": "Q04",
+        "document": "LGPD",
+        "question": "O que caracteriza um dado anonimizado?",
+        "category": "definicao",
+        "expected_answer": "Um dado relativo a um titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento.",
+        "relevant_devices": [
+            {
+                "reference": "Art. 5º > Inciso III",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 5º > Inciso III",
+                "text": "III - dado anonimizado: dado relativo a titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0003"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0006"
+                    ]
+                }
+            }
+        ],
+        "strategies": {
+            "fixed": {
+                "relevant_chunks": [
+                    "fixed_0003"
+                ],
+                "devices_without_full_match": []
+            },
+            "hierarchical": {
+                "relevant_chunks": [
+                    "hierarchical_0006"
+                ],
+                "devices_without_full_match": []
+            }
+        }
+    },
+    {
+        "id": "Q05",
+        "document": "LGPD",
+        "question": "Qual é a diferença entre controlador e operador?",
+        "category": "comparacao",
+        "expected_answer": "O controlador é responsável pelas decisões referentes ao tratamento de dados pessoais, enquanto o operador realiza o tratamento de dados pessoais em nome do controlador.",
+        "relevant_devices": [
+            {
+                "reference": "Art. 5º > Inciso VI",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 5º > Inciso VI",
+                "text": "VI - controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0003"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0006"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 5º > Inciso VII",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 5º > Inciso VII",
+                "text": "VII - operador: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0003"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0006"
+                    ]
+                }
+            }
+        ],
+        "strategies": {
+            "fixed": {
+                "relevant_chunks": [
+                    "fixed_0003"
+                ],
+                "devices_without_full_match": []
+            },
+            "hierarchical": {
+                "relevant_chunks": [
+                    "hierarchical_0006"
+                ],
+                "devices_without_full_match": []
+            }
+        }
+    },
+    {
+        "id": "Q06",
+        "document": "LGPD",
+        "question": "Quais são os dez princípios do tratamento de dados pessoais previstos na LGPD?",
+        "category": "enumeracao",
+        "expected_answer": "Finalidade, adequação, necessidade, livre acesso, qualidade dos dados, transparência, segurança, prevenção, não discriminação e responsabilização e prestação de contas.",
+        "relevant_devices": [
+            {
+                "reference": "Art. 6º > Inciso I",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 6º > Inciso I",
+                "text": "I - finalidade: realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível com essas finalidades;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0005"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0009"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 6º > Inciso II",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 6º > Inciso II",
+                "text": "II - adequação: compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0005"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0009"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 6º > Inciso III",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 6º > Inciso III",
+                "text": "III - necessidade: limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação às finalidades do tratamento de dados;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0005"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0009"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 6º > Inciso IV",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 6º > Inciso IV",
+                "text": "IV - livre acesso: garantia, aos titulares, de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0005"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0009"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 6º > Inciso V",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 6º > Inciso V",
+                "text": "V - qualidade dos dados: garantia, aos titulares, de exatidão, clareza, relevância e atualização dos dados, de acordo com a necessidade e para o cumprimento da finalidade de seu tratamento;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0006"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0009"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 6º > Inciso VI",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 6º > Inciso VI",
+                "text": "VI - transparência: garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento, observados os segredos comercial e industrial;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0006"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0009"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 6º > Inciso VII",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 6º > Inciso VII",
+                "text": "VII - segurança: utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0006"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0009"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 6º > Inciso VIII",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 6º > Inciso VIII",
+                "text": "VIII - prevenção: adoção de medidas para prevenir a ocorrência de danos em virtude do tratamento de dados pessoais;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0006"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0009"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 6º > Inciso IX",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 6º > Inciso IX",
+                "text": "IX - não discriminação: impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0006"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0009"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 6º > Inciso X",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO I DISPOSIÇÕES PRELIMINARES > Art. 6º > Inciso X",
+                "text": "X - responsabilização e prestação de contas: demonstração, pelo agente, da adoção de medidas eficazes e capazes de comprovar a observância e o cumprimento das normas de proteção de dados pessoais e, inclusive, da eficácia dessas medidas.",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0006"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0010"
+                    ]
+                }
+            }
+        ],
+        "strategies": {
+            "fixed": {
+                "relevant_chunks": [
+                    "fixed_0005",
+                    "fixed_0006"
+                ],
+                "devices_without_full_match": []
+            },
+            "hierarchical": {
+                "relevant_chunks": [
+                    "hierarchical_0009",
+                    "hierarchical_0010"
+                ],
+                "devices_without_full_match": []
+            }
+        }
+    },
+    {
+        "id": "Q07",
+        "document": "LGPD",
+        "question": "Quais são as dez hipóteses legais para o tratamento de dados pessoais previstas no artigo 7º?",
+        "category": "condicoes",
+        "expected_answer": "Consentimento do titular, cumprimento de obrigação legal ou regulatória, execução de políticas públicas, realização de estudos por órgão de pesquisa, execução de contrato ou procedimentos preliminares relacionados, exercício regular de direitos, proteção da vida ou da incolumidade física, tutela da saúde, atendimento aos interesses legítimos do controlador ou de terceiro e proteção do crédito, observadas as condições legais aplicáveis.",
+        "relevant_devices": [
+            {
+                "reference": "Art. 7º > Inciso I",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO II DO TRATAMENTO DE DADOS PESSOAIS > Seção I Dos Requisitos para o Tratamento de Dados Pessoais > Art. 7º > Inciso I",
+                "text": "I - mediante o fornecimento de consentimento pelo titular;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0006"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0011"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 7º > Inciso II",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO II DO TRATAMENTO DE DADOS PESSOAIS > Seção I Dos Requisitos para o Tratamento de Dados Pessoais > Art. 7º > Inciso II",
+                "text": "II - para o cumprimento de obrigação legal ou regulatória pelo controlador;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0006"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0011"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 7º > Inciso III",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO II DO TRATAMENTO DE DADOS PESSOAIS > Seção I Dos Requisitos para o Tratamento de Dados Pessoais > Art. 7º > Inciso III",
+                "text": "III - pela administração pública, para o tratamento e uso compartilhado de dados necessários à execução de políticas públicas previstas em leis e regulamentos ou respaldadas em contratos, convênios ou instrumentos congêneres, observadas as disposições do Capítulo IV desta Lei;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0006"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0011"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 7º > Inciso IV",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO II DO TRATAMENTO DE DADOS PESSOAIS > Seção I Dos Requisitos para o Tratamento de Dados Pessoais > Art. 7º > Inciso IV",
+                "text": "IV - para a realização de estudos por órgão de pesquisa, garantida, sempre que possível, a anonimização dos dados pessoais;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0007"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0011"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 7º > Inciso V",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO II DO TRATAMENTO DE DADOS PESSOAIS > Seção I Dos Requisitos para o Tratamento de Dados Pessoais > Art. 7º > Inciso V",
+                "text": "V - quando necessário para a execução de contrato ou de procedimentos preliminares relacionados a contrato do qual seja parte o titular, a pedido do titular dos dados;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0007"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0011"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 7º > Inciso VI",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO II DO TRATAMENTO DE DADOS PESSOAIS > Seção I Dos Requisitos para o Tratamento de Dados Pessoais > Art. 7º > Inciso VI",
+                "text": "VI - para o exercício regular de direitos em processo judicial, administrativo ou arbitral, esse último nos termos da Lei nº 9.307, de 23 de setembro de 1996 (Lei de Arbitragem);",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0007"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0011"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 7º > Inciso VII",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO II DO TRATAMENTO DE DADOS PESSOAIS > Seção I Dos Requisitos para o Tratamento de Dados Pessoais > Art. 7º > Inciso VII",
+                "text": "VII - para a proteção da vida ou da incolumidade física do titular ou de terceiro;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0007"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0011"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 7º > Inciso VIII",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO II DO TRATAMENTO DE DADOS PESSOAIS > Seção I Dos Requisitos para o Tratamento de Dados Pessoais > Art. 7º > Inciso VIII",
+                "text": "VIII - para a tutela da saúde, exclusivamente, em procedimento realizado por profissionais de saúde, serviços de saúde ou autoridade sanitária;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0007"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0011"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 7º > Inciso IX",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO II DO TRATAMENTO DE DADOS PESSOAIS > Seção I Dos Requisitos para o Tratamento de Dados Pessoais > Art. 7º > Inciso IX",
+                "text": "IX - quando necessário para atender aos interesses legítimos do controlador ou de terceiro, exceto no caso de prevalecerem direitos e liberdades fundamentais do titular que exijam a proteção dos dados pessoais; ou",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0007"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0011"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 7º > Inciso X",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO II DO TRATAMENTO DE DADOS PESSOAIS > Seção I Dos Requisitos para o Tratamento de Dados Pessoais > Art. 7º > Inciso X",
+                "text": "X - para a proteção do crédito, inclusive quanto ao disposto na legislação pertinente.",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0007"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0011"
+                    ]
+                }
+            }
+        ],
+        "strategies": {
+            "fixed": {
+                "relevant_chunks": [
+                    "fixed_0006",
+                    "fixed_0007"
+                ],
+                "devices_without_full_match": []
+            },
+            "hierarchical": {
+                "relevant_chunks": [
+                    "hierarchical_0011"
+                ],
+                "devices_without_full_match": []
+            }
+        }
+    },
+    {
+        "id": "Q08",
+        "document": "LGPD",
+        "question": "Segundo o caput e o parágrafo primeiro do artigo 14, quais regras devem ser observadas no tratamento de dados pessoais de crianças?",
+        "category": "regra",
+        "expected_answer": "O tratamento deve observar o melhor interesse da criança e o consentimento específico e em destaque dado por pelo menos um dos pais ou pelo responsável legal, conforme as disposições legais aplicáveis.",
+        "relevant_devices": [
+            {
+                "reference": "Art. 14",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO II DO TRATAMENTO DE DADOS PESSOAIS > Seção III Do Tratamento de Dados Pessoais de Crianças e de Adolescentes > Art. 14",
+                "text": "Art. 14. O tratamento de dados pessoais de crianças e de adolescentes deverá ser realizado em seu melhor interesse, nos termos deste artigo e da legislação pertinente.",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0014"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0020"
+                    ]
+                }
+            },
+            {
+                "reference": "Art. 14 > § 1º",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO II DO TRATAMENTO DE DADOS PESSOAIS > Seção III Do Tratamento de Dados Pessoais de Crianças e de Adolescentes > Art. 14 > § 1º",
+                "text": "§ 1º O tratamento de dados pessoais de crianças deverá ser realizado com o consentimento específico e em destaque dado por pelo menos um dos pais ou pelo responsável legal.",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0014"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0020"
+                    ]
+                }
+            }
+        ],
+        "strategies": {
+            "fixed": {
+                "relevant_chunks": [
+                    "fixed_0014"
+                ],
+                "devices_without_full_match": []
+            },
+            "hierarchical": {
+                "relevant_chunks": [
+                    "hierarchical_0020"
+                ],
+                "devices_without_full_match": []
+            }
+        }
+    },
+    {
+        "id": "Q09",
+        "document": "LGPD",
+        "question": "O titular pode solicitar a correção de dados pessoais incompletos ou inexatos?",
+        "category": "direito",
+        "expected_answer": "Sim. O titular tem direito à correção de dados incompletos, inexatos ou desatualizados.",
+        "relevant_devices": [
+            {
+                "reference": "Art. 18 > Inciso III",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO III DOS DIREITOS DO TITULAR > Art. 18 > Inciso III",
+                "text": "III - correção de dados incompletos, inexatos ou desatualizados;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0016"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0024"
+                    ]
+                }
+            }
+        ],
+        "strategies": {
+            "fixed": {
+                "relevant_chunks": [
+                    "fixed_0016"
+                ],
+                "devices_without_full_match": []
+            },
+            "hierarchical": {
+                "relevant_chunks": [
+                    "hierarchical_0024"
+                ],
+                "devices_without_full_match": []
+            }
+        }
+    },
+    {
+        "id": "Q10",
+        "document": "LGPD",
+        "question": "Qual é o limite da multa simples prevista pela LGPD?",
+        "category": "informacao_especifica",
+        "expected_answer": "Até 2% do faturamento da pessoa jurídica de direito privado, grupo ou conglomerado no Brasil no seu último exercício, excluídos os tributos, limitada a R$ 50 milhões por infração.",
+        "relevant_devices": [
+            {
+                "reference": "Art. 52 > Inciso II",
+                "full_path": "Lei nº 13.709/2018 - LGPD > CAPÍTULO VIII DA FISCALIZAÇÃO > Seção I Das Sanções Administrativas > Art. 52 > Inciso II",
+                "text": "II - multa simples, de até 2% (dois por cento) do faturamento da pessoa jurídica de direito privado, grupo ou conglomerado no Brasil no seu último exercício, excluídos os tributos, limitada, no total, a R$ 50.000.000,00 (cinquenta milhões de reais) por infração;",
+                "chunks": {
+                    "fixed": [
+                        "fixed_0032"
+                    ],
+                    "hierarchical": [
+                        "hierarchical_0063"
+                    ]
+                }
+            }
+        ],
+        "strategies": {
+            "fixed": {
+                "relevant_chunks": [
+                    "fixed_0032"
+                ],
+                "devices_without_full_match": []
+            },
+            "hierarchical": {
+                "relevant_chunks": [
+                    "hierarchical_0063"
+                ],
+                "devices_without_full_match": []
+            }
+        }
+    }
+]

@@ -1,0 +1,247 @@
+{
+    "evaluation_method": "AI-assisted rubric, pending human review",
+    "total_evaluated_answers": 20,
+    "scoring_configuration": {
+        "criteria": [
+            "factual_correctness",
+            "completeness",
+            "faithfulness"
+        ],
+        "minimum_score_per_criterion": 0,
+        "maximum_score_per_criterion": 2,
+        "maximum_score_per_answer": 6
+    },
+    "strategies": {
+        "fixed": {
+            "total_answers": 10,
+            "mean_factual_correctness": 1.8,
+            "mean_completeness": 1.5,
+            "mean_faithfulness": 2,
+            "total_score": 53,
+            "max_possible_score": 60,
+            "mean_total_score": 5.3,
+            "normalized_score": 0.8833333333333333,
+            "complete_answers": 6,
+            "partial_answers": 3,
+            "insufficient_answers": 1,
+            "complete_answer_rate": 0.6,
+            "partial_answer_rate": 0.3,
+            "insufficient_answer_rate": 0.1,
+            "mean_precision_at_5": 0.16,
+            "mean_recall_at_5": 0.65,
+            "mrr_at_5": 0.4583333333333333,
+            "hit_rate_at_5": 0.7,
+            "mean_device_recall_at_5": 0.63,
+            "mean_retrieved_tokens_embedding": 2020.7,
+            "mean_retrieval_time_ms": 0.2277800813317299,
+            "total_input_tokens": 22572,
+            "total_output_tokens": 1610,
+            "total_tokens": 24182,
+            "mean_input_tokens": 2257.2,
+            "mean_output_tokens": 161,
+            "mean_total_tokens": 2418.2,
+            "total_generation_time_seconds": 40.71701249899343,
+            "mean_generation_time_seconds": 4.071701249899343
+        },
+        "hierarchical": {
+            "total_answers": 10,
+            "mean_factual_correctness": 1.6,
+            "mean_completeness": 1.6,
+            "mean_faithfulness": 1.9,
+            "total_score": 51,
+            "max_possible_score": 60,
+            "mean_total_score": 5.1,
+            "normalized_score": 0.85,
+            "complete_answers": 8,
+            "partial_answers": 0,
+            "insufficient_answers": 2,
+            "complete_answer_rate": 0.8,
+            "partial_answer_rate": 0.0,
+            "insufficient_answer_rate": 0.2,
+            "mean_precision_at_5": 0.16,
+            "mean_recall_at_5": 0.8,
+            "mrr_at_5": 0.47833333333333333,
+            "hit_rate_at_5": 0.8,
+            "mean_device_recall_at_5": 0.8,
+            "mean_retrieved_tokens_embedding": 1361,
+            "mean_retrieval_time_ms": 0.12263990938663483,
+            "total_input_tokens": 16318,
+            "total_output_tokens": 1584,
+            "total_tokens": 17902,
+            "mean_input_tokens": 1631.8,
+            "mean_output_tokens": 158.4,
+            "mean_total_tokens": 1790.2,
+            "total_generation_time_seconds": 35.86455399962142,
+            "mean_generation_time_seconds": 3.586455399962142
+        }
+    },
+    "paired_comparison": {
+        "total_questions": 10,
+        "fixed_wins": 1,
+        "hierarchical_wins": 3,
+        "ties": 6,
+        "details": [
+            {
+                "question_id": "Q01",
+                "fixed_score": 6,
+                "hierarchical_score": 6,
+                "difference": 0,
+                "winner": "tie"
+            },
+            {
+                "question_id": "Q02",
+                "fixed_score": 5,
+                "hierarchical_score": 6,
+                "difference": 1,
+                "winner": "hierarchical"
+            },
+            {
+                "question_id": "Q03",
+                "fixed_score": 2,
+                "hierarchical_score": 2,
+                "difference": 0,
+                "winner": "tie"
+            },
+            {
+                "question_id": "Q04",
+                "fixed_score": 6,
+                "hierarchical_score": 6,
+                "difference": 0,
+                "winner": "tie"
+            },
+            {
+                "question_id": "Q05",
+                "fixed_score": 5,
+                "hierarchical_score": 6,
+                "difference": 1,
+                "winner": "hierarchical"
+            },
+            {
+                "question_id": "Q06",
+                "fixed_score": 6,
+                "hierarchical_score": 1,
+                "difference": -5,
+                "winner": "fixed"
+            },
+            {
+                "question_id": "Q07",
+                "fixed_score": 5,
+                "hierarchical_score": 6,
+                "difference": 1,
+                "winner": "hierarchical"
+            },
+            {
+                "question_id": "Q08",
+                "fixed_score": 6,
+                "hierarchical_score": 6,
+                "difference": 0,
+                "winner": "tie"
+            },
+            {
+                "question_id": "Q09",
+                "fixed_score": 6,
+                "hierarchical_score": 6,
+                "difference": 0,
+                "winner": "tie"
+            },
+            {
+                "question_id": "Q10",
+                "fixed_score": 6,
+                "hierarchical_score": 6,
+                "difference": 0,
+                "winner": "tie"
+            }
+        ]
+    },
+    "strategy_comparison": {
+        "mean_factual_correctness": {
+            "fixed": 1.8,
+            "hierarchical": 1.6,
+            "absolute_difference": -0.19999999999999996,
+            "percentage_change": -11.111111111111107
+        },
+        "mean_completeness": {
+            "fixed": 1.5,
+            "hierarchical": 1.6,
+            "absolute_difference": 0.10000000000000009,
+            "percentage_change": 6.666666666666672
+        },
+        "mean_faithfulness": {
+            "fixed": 2,
+            "hierarchical": 1.9,
+            "absolute_difference": -0.10000000000000009,
+            "percentage_change": -5.000000000000004
+        },
+        "mean_total_score": {
+            "fixed": 5.3,
+            "hierarchical": 5.1,
+            "absolute_difference": -0.20000000000000018,
+            "percentage_change": -3.7735849056603805
+        },
+        "mean_precision_at_5": {
+            "fixed": 0.16,
+            "hierarchical": 0.16,
+            "absolute_difference": 0.0,
+            "percentage_change": 0.0
+        },
+        "mean_recall_at_5": {
+            "fixed": 0.65,
+            "hierarchical": 0.8,
+            "absolute_difference": 0.15000000000000002,
+            "percentage_change": 23.076923076923077
+        },
+        "mrr_at_5": {
+            "fixed": 0.4583333333333333,
+            "hierarchical": 0.47833333333333333,
+            "absolute_difference": 0.020000000000000018,
+            "percentage_change": 4.363636363636368
+        },
+        "hit_rate_at_5": {
+            "fixed": 0.7,
+            "hierarchical": 0.8,
+            "absolute_difference": 0.10000000000000009,
+            "percentage_change": 14.285714285714299
+        },
+        "mean_device_recall_at_5": {
+            "fixed": 0.63,
+            "hierarchical": 0.8,
+            "absolute_difference": 0.17000000000000004,
+            "percentage_change": 26.984126984126988
+        },
+        "mean_retrieved_tokens_embedding": {
+            "fixed": 2020.7,
+            "hierarchical": 1361,
+            "absolute_difference": -659.7,
+            "percentage_change": -32.64710248923641
+        },
+        "total_input_tokens": {
+            "fixed": 22572,
+            "hierarchical": 16318,
+            "absolute_difference": -6254,
+            "percentage_change": -27.70689349636718
+        },
+        "total_output_tokens": {
+            "fixed": 1610,
+            "hierarchical": 1584,
+            "absolute_difference": -26,
+            "percentage_change": -1.6149068322981366
+        },
+        "total_tokens": {
+            "fixed": 24182,
+            "hierarchical": 17902,
+            "absolute_difference": -6280,
+            "percentage_change": -25.969729550905633
+        },
+        "mean_generation_time_seconds": {
+            "fixed": 4.071701249899343,
+            "hierarchical": 3.586455399962142,
+            "absolute_difference": -0.485245849937201,
+            "percentage_change": -11.917520961273787
+        },
+        "complete_answer_rate": {
+            "fixed": 0.6,
+            "hierarchical": 0.8,
+            "difference_percentage_points": 20.000000000000007
+        }
+    }
+}

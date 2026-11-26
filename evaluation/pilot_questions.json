@@ -1,0 +1,123 @@
+
+[
+    {
+        "id": "Q01",
+        "document": "LGPD",
+        "question": "Qual é o objetivo da LGPD?",
+        "category": "objetivo",
+        "expected_answer": "Proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.",
+        "relevant_devices": [
+            "Art. 1º"
+        ]
+    },
+    {
+        "id": "Q02",
+        "document": "LGPD",
+        "question": "O que são dados pessoais?",
+        "category": "definicao",
+        "expected_answer": "Informações relacionadas a uma pessoa natural identificada ou identificável.",
+        "relevant_devices": [
+            "Art. 5º > Inciso I"
+        ]
+    },
+    {
+        "id": "Q03",
+        "document": "LGPD",
+        "question": "O que são dados pessoais sensíveis?",
+        "category": "definicao",
+        "expected_answer": "Dados pessoais sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dados referentes à saúde ou à vida sexual e dados genéticos ou biométricos, quando vinculados a uma pessoa natural.",
+        "relevant_devices": [
+            "Art. 5º > Inciso II"
+        ]
+    },
+    {
+        "id": "Q04",
+        "document": "LGPD",
+        "question": "O que caracteriza um dado anonimizado?",
+        "category": "definicao",
+        "expected_answer": "Um dado relativo a um titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento.",
+        "relevant_devices": [
+            "Art. 5º > Inciso III"
+        ]
+    },
+    {
+        "id": "Q05",
+        "document": "LGPD",
+        "question": "Qual é a diferença entre controlador e operador?",
+        "category": "comparacao",
+        "expected_answer": "O controlador é responsável pelas decisões referentes ao tratamento de dados pessoais, enquanto o operador realiza o tratamento de dados pessoais em nome do controlador.",
+        "relevant_devices": [
+            "Art. 5º > Inciso VI",
+            "Art. 5º > Inciso VII"
+        ]
+    },
+    {
+        "id": "Q06",
+        "document": "LGPD",
+        "question": "Quais são os dez princípios do tratamento de dados pessoais previstos na LGPD?",
+        "category": "enumeracao",
+        "expected_answer": "Finalidade, adequação, necessidade, livre acesso, qualidade dos dados, transparência, segurança, prevenção, não discriminação e responsabilização e prestação de contas.",
+        "relevant_devices": [
+            "Art. 6º > Inciso I",
+            "Art. 6º > Inciso II",
+            "Art. 6º > Inciso III",
+            "Art. 6º > Inciso IV",
+            "Art. 6º > Inciso V",
+            "Art. 6º > Inciso VI",
+            "Art. 6º > Inciso VII",
+            "Art. 6º > Inciso VIII",
+            "Art. 6º > Inciso IX",
+            "Art. 6º > Inciso X"
+        ]
+    },
+    {
+        "id": "Q07",
+        "document": "LGPD",
+        "question": "Quais são as dez hipóteses legais para o tratamento de dados pessoais previstas no artigo 7º?",
+        "category": "condicoes",
+        "expected_answer": "Consentimento do titular, cumprimento de obrigação legal ou regulatória, execução de políticas públicas, realização de estudos por órgão de pesquisa, execução de contrato ou procedimentos preliminares relacionados, exercício regular de direitos, proteção da vida ou da incolumidade física, tutela da saúde, atendimento aos interesses legítimos do controlador ou de terceiro e proteção do crédito, observadas as condições legais aplicáveis.",
+        "relevant_devices": [
+            "Art. 7º > Inciso I",
+            "Art. 7º > Inciso II",
+            "Art. 7º > Inciso III",
+            "Art. 7º > Inciso IV",
+            "Art. 7º > Inciso V",
+            "Art. 7º > Inciso VI",
+            "Art. 7º > Inciso VII",
+            "Art. 7º > Inciso VIII",
+            "Art. 7º > Inciso IX",
+            "Art. 7º > Inciso X"
+        ]
+    },
+    {
+        "id": "Q08",
+        "document": "LGPD",
+        "question": "Segundo o caput e o parágrafo primeiro do artigo 14, quais regras devem ser observadas no tratamento de dados pessoais de crianças?",
+        "category": "regra",
+        "expected_answer": "O tratamento deve observar o melhor interesse da criança e o consentimento específico e em destaque dado por pelo menos um dos pais ou pelo responsável legal, conforme as disposições legais aplicáveis.",
+        "relevant_devices": [
+            "Art. 14",
+            "Art. 14 > § 1º"
+        ]
+    },
+    {
+        "id": "Q09",
+        "document": "LGPD",
+        "question": "O titular pode solicitar a correção de dados pessoais incompletos ou inexatos?",
+        "category": "direito",
+        "expected_answer": "Sim. O titular tem direito à correção de dados incompletos, inexatos ou desatualizados.",
+        "relevant_devices": [
+            "Art. 18 > Inciso III"
+        ]
+    },
+    {
+        "id": "Q10",
+        "document": "LGPD",
+        "question": "Qual é o limite da multa simples prevista pela LGPD?",
+        "category": "informacao_especifica",
+        "expected_answer": "Até 2% do faturamento da pessoa jurídica de direito privado, grupo ou conglomerado no Brasil no seu último exercício, excluídos os tributos, limitada a R$ 50 milhões por infração.",
+        "relevant_devices": [
+            "Art. 52 > Inciso II"
+        ]
+    }
+]

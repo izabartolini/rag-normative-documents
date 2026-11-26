@@ -1,0 +1,21 @@
+﻿question_id;question;category;strategy;precision_at_5;recall_at_5;reciprocal_rank_at_5;hit_at_5;device_recall_at_5;retrieved_tokens;retrieval_time_ms
+Q01;Qual é o objetivo da LGPD?;objetivo;fixed;0.2;1.0;0.25;1;1.0;2021;1.6544000245630741
+Q01;Qual é o objetivo da LGPD?;objetivo;hierarchical;0.2;1.0;1.0;1;1.0;761;0.3906995989382267
+Q02;O que são dados pessoais?;definicao;fixed;0.0;0.0;0.0;0;0.0;2021;0.060599762946367264
+Q02;O que são dados pessoais?;definicao;hierarchical;0.2;1.0;0.25;1;1.0;1344;0.06899982690811157
+Q03;O que são dados pessoais sensíveis?;definicao;fixed;0.0;0.0;0.0;0;0.0;2020;0.08350005373358727
+Q03;O que são dados pessoais sensíveis?;definicao;hierarchical;0.0;0.0;0.0;0;0.0;1488;0.08119968697428703
+Q04;O que caracteriza um dado anonimizado?;definicao;fixed;0.2;1.0;0.3333333333333333;1;1.0;2020;0.06190035492181778
+Q04;O que caracteriza um dado anonimizado?;definicao;hierarchical;0.2;1.0;0.5;1;1.0;1426;0.07739989086985588
+Q05;Qual é a diferença entre controlador e operador?;comparacao;fixed;0.0;0.0;0.0;0;0.0;2021;0.07029995322227478
+Q05;Qual é a diferença entre controlador e operador?;comparacao;hierarchical;0.2;1.0;0.2;1;1.0;938;0.09449990466237068
+Q06;Quais são os dez princípios do tratamento de dados pessoais previstos na LGPD?;enumeracao;fixed;0.4;1.0;0.5;1;1.0;2021;0.07240008562803268
+Q06;Quais são os dez princípios do tratamento de dados pessoais previstos na LGPD?;enumeracao;hierarchical;0.0;0.0;0.0;0;0.0;1450;0.10069971904158592
+Q07;Quais são as dez hipóteses legais para o tratamento de dados pessoais previstas no artigo 7º?;condicoes;fixed;0.2;0.5;1.0;1;0.3;2021;0.056900084018707275
+Q07;Quais são as dez hipóteses legais para o tratamento de dados pessoais previstas no artigo 7º?;condicoes;hierarchical;0.2;1.0;0.5;1;1.0;1717;0.09540002793073654
+Q08;Segundo o caput e o parágrafo primeiro do artigo 14, quais regras devem ser observadas no tratamento de dados pessoais de crianças?;regra;fixed;0.2;1.0;0.5;1;1.0;2021;0.07330020889639854
+Q08;Segundo o caput e o parágrafo primeiro do artigo 14, quais regras devem ser observadas no tratamento de dados pessoais de crianças?;regra;hierarchical;0.2;1.0;1.0;1;1.0;1613;0.10280031710863113
+Q09;O titular pode solicitar a correção de dados pessoais incompletos ou inexatos?;direito;fixed;0.2;1.0;1.0;1;1.0;2020;0.07160007953643799
+Q09;O titular pode solicitar a correção de dados pessoais incompletos ou inexatos?;direito;hierarchical;0.2;1.0;0.3333333333333333;1;1.0;1663;0.11290004476904869
+Q10;Qual é o limite da multa simples prevista pela LGPD?;informacao_especifica;fixed;0.2;1.0;1.0;1;1.0;2021;0.0729002058506012
+Q10;Qual é o limite da multa simples prevista pela LGPD?;informacao_especifica;hierarchical;0.2;1.0;1.0;1;1.0;1210;0.10180007666349411

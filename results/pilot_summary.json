@@ -1,0 +1,28 @@
+{
+    "fixed": {
+        "total_questions": 10,
+        "mean_precision_at_5": 0.16,
+        "mean_recall_at_5": 0.65,
+        "mrr_at_5": 0.4583333333333333,
+        "hit_rate_at_5": 0.7,
+        "mean_device_recall_at_5": 0.63,
+        "total_covered_devices": 19,
+        "total_expected_devices": 30,
+        "mean_retrieved_tokens": 2020.7,
+        "mean_retrieval_time_ms": 0.2277800813317299,
+        "micro_device_recall_at_5": 0.6333333333333333
+    },
+    "hierarchical": {
+        "total_questions": 10,
+        "mean_precision_at_5": 0.16,
+        "mean_recall_at_5": 0.8,
+        "mrr_at_5": 0.47833333333333333,
+        "hit_rate_at_5": 0.8,
+        "mean_device_recall_at_5": 0.8,
+        "total_covered_devices": 19,
+        "total_expected_devices": 30,
+        "mean_retrieved_tokens": 1361,
+        "mean_retrieval_time_ms": 0.12263990938663483,
+        "micro_device_recall_at_5": 0.6333333333333333
+    }
+}

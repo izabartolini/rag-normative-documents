@@ -1,0 +1,21 @@
+﻿question_id;question;category;strategy;factual_correctness;completeness;faithfulness;total_score;precision_at_5;recall_at_5;reciprocal_rank_at_5;hit_at_5;device_recall_at_5;retrieved_tokens_embedding;retrieval_time_ms;input_tokens;output_tokens;thinking_tokens;total_tokens;generation_time_seconds;model_version;finish_reason;attempts
+Q01;Qual é o objetivo da LGPD?;objetivo;fixed;2;2;2;6;0.2;1.0;0.25;1;1.0;2021;1.6544000245630741;2275;84;;2359;6.345303099602461;gemini-3.5-flash-lite;STOP;1
+Q01;Qual é o objetivo da LGPD?;objetivo;hierarchical;2;2;2;6;0.2;1.0;1.0;1;1.0;761;0.3906995989382267;1015;92;;1107;2.3974097003228962;gemini-3.5-flash-lite;STOP;1
+Q02;O que são dados pessoais?;definicao;fixed;2;1;2;5;0.0;0.0;0.0;0;0.0;2021;0.060599762946367264;2242;100;;2342;2.7628043997101486;gemini-3.5-flash-lite;STOP;1
+Q02;O que são dados pessoais?;definicao;hierarchical;2;2;2;6;0.2;1.0;0.25;1;1.0;1344;0.06899982690811157;1588;155;;1743;3.1361661995761096;gemini-3.5-flash-lite;STOP;1
+Q03;O que são dados pessoais sensíveis?;definicao;fixed;0;0;2;2;0.0;0.0;0.0;0;0.0;2020;0.08350005373358727;2235;142;;2377;7.706569200381637;gemini-3.5-flash-lite;STOP;1
+Q03;O que são dados pessoais sensíveis?;definicao;hierarchical;0;0;2;2;0.0;0.0;0.0;0;0.0;1488;0.08119968697428703;1767;96;;1863;3.7730816998519003;gemini-3.5-flash-lite;STOP;1
+Q04;O que caracteriza um dado anonimizado?;definicao;fixed;2;2;2;6;0.2;1.0;0.3333333333333333;1;1.0;2020;0.06190035492181778;2245;167;;2412;1.5481898998841643;gemini-3.5-flash-lite;STOP;1
+Q04;O que caracteriza um dado anonimizado?;definicao;hierarchical;2;2;2;6;0.2;1.0;0.5;1;1.0;1426;0.07739989086985588;1684;173;;1857;1.282030399888754;gemini-3.5-flash-lite;STOP;1
+Q05;Qual é a diferença entre controlador e operador?;comparacao;fixed;2;1;2;5;0.0;0.0;0.0;0;0.0;2021;0.07029995322227478;2203;118;;2321;2.2210332001559436;gemini-3.5-flash-lite;STOP;1
+Q05;Qual é a diferença entre controlador e operador?;comparacao;hierarchical;2;2;2;6;0.2;1.0;0.2;1;1.0;938;0.09449990466237068;1170;173;;1343;5.743945899885148;gemini-3.5-flash-lite;STOP;1
+Q06;Quais são os dez princípios do tratamento de dados pessoais previstos na LGPD?;enumeracao;fixed;2;2;2;6;0.4;1.0;0.5;1;1.0;2021;0.07240008562803268;2260;499;;2759;6.856227499898523;gemini-3.5-flash-lite;STOP;1
+Q06;Quais são os dez princípios do tratamento de dados pessoais previstos na LGPD?;enumeracao;hierarchical;0;0;1;1;0.0;0.0;0.0;0;0.0;1450;0.10069971904158592;1727;120;;1847;3.170515799894929;gemini-3.5-flash-lite;STOP;1
+Q07;Quais são as dez hipóteses legais para o tratamento de dados pessoais previstas no artigo 7º?;condicoes;fixed;2;1;2;5;0.2;0.5;1.0;1;0.3;2021;0.056900084018707275;2238;211;;2449;5.905779399909079;gemini-3.5-flash-lite;STOP;1
+Q07;Quais são as dez hipóteses legais para o tratamento de dados pessoais previstas no artigo 7º?;condicoes;hierarchical;2;2;2;6;0.2;1.0;0.5;1;1.0;1717;0.09540002793073654;1994;364;;2358;6.256419400218874;gemini-3.5-flash-lite;STOP;1
+Q08;Segundo o caput e o parágrafo primeiro do artigo 14, quais regras devem ser observadas no tratamento de dados pessoais de crianças?;regra;fixed;2;2;2;6;0.2;1.0;0.5;1;1.0;2021;0.07330020889639854;2233;109;;2342;1.8366785002872348;gemini-3.5-flash-lite;STOP;1
+Q08;Segundo o caput e o parágrafo primeiro do artigo 14, quais regras devem ser observadas no tratamento de dados pessoais de crianças?;regra;hierarchical;2;2;2;6;0.2;1.0;1.0;1;1.0;1613;0.10280031710863113;1880;148;;2028;1.3288513999432325;gemini-3.5-flash-lite;STOP;1
+Q09;O titular pode solicitar a correção de dados pessoais incompletos ou inexatos?;direito;fixed;2;2;2;6;0.2;1.0;1.0;1;1.0;2020;0.07160007953643799;2276;64;;2340;3.9842879995703697;gemini-3.5-flash-lite;STOP;1
+Q09;O titular pode solicitar a correção de dados pessoais incompletos ou inexatos?;direito;hierarchical;2;2;2;6;0.2;1.0;0.3333333333333333;1;1.0;1663;0.11290004476904869;1957;103;;2060;2.3453369000926614;gemini-3.5-flash-lite;STOP;1
+Q10;Qual é o limite da multa simples prevista pela LGPD?;informacao_especifica;fixed;2;2;2;6;0.2;1.0;1.0;1;1.0;2021;0.0729002058506012;2365;116;;2481;1.5501392995938659;gemini-3.5-flash-lite;STOP;1
+Q10;Qual é o limite da multa simples prevista pela LGPD?;informacao_especifica;hierarchical;2;2;2;6;0.2;1.0;1.0;1;1.0;1210;0.10180007666349411;1536;160;;1696;6.430796599946916;gemini-3.5-flash-lite;STOP;1
